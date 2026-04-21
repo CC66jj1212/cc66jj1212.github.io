@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数字展销平台</title>
+    <link rel="stylesheet" href="../test2/css/lab2-2504-145-index.css">
+    <link  href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 1. 头部区域 -->
+    <header class="header">
+       
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#" class="active">首页</a></li>
+                <li><a href="#">推荐</a></li>
+                <li><a href="#">排行</a></li>
+                <li><a href="#">订单</a></li>
+                <li><a href="#">我的</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 2. 主体容器 (三栏布局) -->
+    <div class="container">
+        <!-- 左侧栏：图书分类 -->
+        <aside class="sidebar-left">
+            <h3><i class="fa-solid fa-list"></i> 图书分类</h3>
+            <ul>
+                <li>文学小说</li>
+                <li>科学技术</li>
+                <li>儿童读物</li>
+                <li>艺术设计</li>
+            </ul>
+        </aside>
+
+        <!-- 中间栏：核心内容 -->
+        <main class="content">
+            <!-- 热门推荐 -->
+            <section class="recommend">
+                <h2><i class="fa-solid fa-fire-flame-curved"></i> 热门推荐</h2>
+                <div class="book-list">
+                    <div class="book-item">
+                        <img src="../test2/images/ylylbs.jpg" alt="月亮与六便士">
+                        <p class="book-name">月亮与六便士</p>
+                        <p class="book-author">毛姆</p>
+                        <p class="book-price">¥15.00</p>
+                    </div>
+                    <div class="book-item">
+                        <img src="../test2/images/sstt.jpg" alt="四世同堂">
+                        <p class="book-name">四世同堂</p>
+                        <p class="book-author">老舍</p>
+                        <p class="book-price">¥14.00</p>
+                    </div>
+                    <div class="book-item">
+                        <img src="../test2/images/hz.jpg" alt="活着">
+                        <p class="book-name">活着</p>
+                        <p class="book-author">余华</p>
+                        <p class="book-price">¥16.00</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 新书上市 -->
+            <section class="new-book">
+                <h2><i class="fa-solid fa-box-archive"></i> 新书上市</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>书名</th>
+                            <th>作者</th>
+                            <th>价格</th>
+                            <th>评分</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>阿勒泰的角落</td>
+                            <td>李娟</td>
+                            <td>¥8.00</td>
+                            <td>9.3</td>
+                        </tr>
+                        <tr>
+                            <td>瓦尔登湖</td>
+                            <td>梭罗</td>
+                            <td>¥9.00</td>
+                            <td>9.2</td>
+                        </tr>
+                        <tr>
+                            <td>百年孤独</td>
+                            <td>加夫列尔·加西亚·马尔克斯</td>
+                            <td>¥8.00</td>
+                            <td>9.0</td>
+                        </tr>
+                        <tr>
+                            <td>战争与和平</td>
+                            <td>列夫·托尔斯泰</td>
+                            <td>¥12.00</td>
+                            <td>9.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <!-- 右侧栏：促销活动 -->
+        <aside class="sidebar-right">
+            <h3><i class="fa-solid fa-gift"></i> 促销活动</h3>
+            <div class="promo-item">
+                <h4>满减优惠</h4>
+                <p>消费满50减10</p>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
