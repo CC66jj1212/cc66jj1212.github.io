@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    background-color: #f5f5f5;
+}
+ul {
+    list-style: none;
+}
+.header {
+    height: 60px;
+    line-height: 60px;
+    background-color: #ff6347;
+    padding: 0 20px;
+    color: white;
+}
+.nav-menu {
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-menu ul li {
+    float: left;
+    margin: 0 15px;
+}
+.nav-menu ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    
+}
+.nav-menu ul li a.active,
+.nav-menu ul li a:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.container {
+    width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.sidebar-left {
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.sidebar-left h3 {
+    font-size: 16px;
+    border-left: 3px solid #6a5acd;
+    padding-left: 8px;
+    margin-bottom: 15px;
+}
+.sidebar-left ul li {
+    padding: 10px 5px;
+    border-bottom: 1px dashed #eee;
+    cursor: pointer;
+}
+.sidebar-left ul li:hover {
+    color: #6a5acd;
+    font-weight: bold;
+}
+.content {
+    width: 760px;
+    float: left;
+}
+.recommend {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.recommend h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.book-list {
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+.book-item {
+    flex: 1;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s;
+}
+.book-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.book-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.book-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.book-author {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.book-price {
+    color: #ff4500;
+    font-weight: bold;
+}
+.new-book {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+}
+.new-book h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.new-book table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.new-book table th {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px;
+}
+.new-book table td {
+    padding: 10px;
+    border-bottom: 1px dashed #eee;
+}
+.sidebar-right {
+    width: 200px;
+    float: right;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 15px;
+}
+.sidebar-right h3 {
+    font-size: 16px;
+    color: #ff6347;
+    margin-bottom: 15px;
+}
+.promo-item {
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.promo-item h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #ff4500;
+}
+.promo-item p {
+    font-size: 13px;
+    color: #ff6347;
+}
+.back-top {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #6a5acd;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+}
